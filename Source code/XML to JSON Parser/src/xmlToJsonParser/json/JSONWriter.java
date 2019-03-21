@@ -1,3 +1,4 @@
+package xmlToJsonParser.json;
 import java.io.StringWriter;
 
 /**
@@ -12,36 +13,31 @@ public class JSONWriter extends StringWriter {
     private int indent = 0;
 
     @Override
-    public void write(int c) 
-    {
-        if (((char)c) == '[' || ((char)c) == '{') 
-        {
+    public void write(int c) {
+        if (((char)c) == '[' || ((char)c) == '{') {
         	super.write("\r\n");
         	writeIndentation();
             super.write(c);
             super.write("\r\n");
             indent++;
             writeIndentation();
-        } 
-        else if (((char)c) == ',') 
-        {
+        } else if (((char)c) == ',') {
             super.write(c);
             super.write("\r\n");
             writeIndentation();
-        } 
-        else if (((char)c) == ']' || ((char)c) == '}') 
-        {
+        } else if (((char)c) == ']' || ((char)c) == '}') {
             super.write("\r\n");
             indent--;
             writeIndentation();
             super.write(c);
-        } 
-        else super.write(c);
+        } else {
+        	super.write(c);
+        }
     }
 
-    private void writeIndentation() 
-    {
-        for (int i = 0; i < indent; i++) 
+    private void writeIndentation() {
+        for (int i = 0; i < indent; i++) { 
             super.write("\t");
+        }
     }
 }
