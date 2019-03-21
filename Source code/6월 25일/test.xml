@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<NewDataSet> 
+ <Table1 LayoutSeqNo = "7" LayoutCode = "01">   
+                           <LayoutName>romantic face</LayoutName>
+                           </Table1> 
+                           <Table2 LayoutSeqNo = "8" LayoutCode = "02">   
+                            <LayoutName>normal face</LayoutName> 
+                 </Table2> 
+                <Table3  LayoutSeqNo = "9" LayoutCode = "03">      
+                            <LayoutName>romantic face2</LayoutName> 
+                </Table3> 
+                <Table4  LayoutSeqNo = "10" LayoutCode = "04">   
+                             <LayoutName>casual face</LayoutName> 
+                </Table4> 
+                <Table5  LayoutSeqNo = "11" LayoutCode = "05">   
+                              <LayoutName>girlish face</LayoutName>
+               </Table5> 
+               <Table6 LayoutSeqNo = "12" LayoutCode = "06">   
+
+                              <LayoutName>map</LayoutName>
+               </Table6>
+      </NewDataSet>
+
+
