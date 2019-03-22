@@ -31,7 +31,7 @@ public class PrettyJSONObject extends JSONObject {
 			return super.put(key, value);
 		} else { // 중복된 자식 노드인 경우
 			Object previousValue = super.get(key);
-			JSONArray jsonArray = null;
+			JSONArray jsonArray = null; // 원래 있던 값과 새로운 값을 합칠, 배열 형태의 객체
 
 			if (previousValue instanceof JSONArray) {
 				jsonArray = (JSONArray) previousValue;

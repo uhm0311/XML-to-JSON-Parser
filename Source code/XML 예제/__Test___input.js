@@ -17,8 +17,8 @@ var jsonObj =
 		{
 			"name":
 			{
-				"#text":"book4",
-				"cc":"ee"
+				"cc":"ee",
+				"#text":"book4"
 			}
 		},
 		"book3":
@@ -27,13 +27,13 @@ var jsonObj =
 			{
 				"author":
 				{
-					"#text":"author3 aa   せせせせ",
-					"dd":"bb"
+					"dd":"bb",
+					"#text":"author3 aa   せせせせ"
 				},
 				"name":
 				{
-					"#text":"book3",
-					"jj":"aa"
+					"jj":"aa",
+					"#text":"book3"
 				}
 			},
 			

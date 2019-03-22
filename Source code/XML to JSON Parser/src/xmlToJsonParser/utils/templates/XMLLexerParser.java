@@ -1,4 +1,4 @@
-package xmlToJsonParser.utils;
+package xmlToJsonParser.utils.templates;
 
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
