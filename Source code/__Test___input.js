@@ -1,1 +1,0 @@
-var jsonObj = {"root":{"temp1":{"@aa":"bb"},"book3":[{"author":{"#text":"author3","@dd":"bb"},"name":{"#text":"book3","@jj":"aa"}},{"@aa":"bb"}],"book4":{"name":{"#text":"book4","@cc":"ee"}},"book1":{"author":{"#text":"author1"},"name":{"#text":"book1"}}}};

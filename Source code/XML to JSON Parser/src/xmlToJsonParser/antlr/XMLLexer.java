@@ -1,3 +1,4 @@
+package xmlToJsonParser.antlr;
 // Generated from C:\Users\User\Google 드라이브\단국대\프로그래밍\ANTLR\workspace\xml to json\XMLLexer.g4 by ANTLR 4.1
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;
